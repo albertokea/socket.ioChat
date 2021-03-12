@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container{
+  width: 30em;
+  height: 40em;
+  border: 2px solid black;
+  position: relative;
+  border-radius: 10px;
+  background-image: url(../images/Music_Monitor.jpg);
+}
+
+.messages{
+  margin-top: 1.5em;
+  height: 27em;
+  overflow-y: scroll;
+}
+
+ul{
+  color: white;
+}
+
+li{
+  font-size: 1.4em;
+  margin: 1em;
+  list-style: none;
+}
+
+.inputs{
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid lightgoldenrodyellow;
+  width: 90%;
+  padding: 5%;
+  color: white
+}
