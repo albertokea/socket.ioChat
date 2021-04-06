@@ -37,6 +37,7 @@ io.on('connection', (socket) => {
   io.emit('users_chat', io.engine.clientsCount);
 
   socket.on('mensaje_chat', (data) => {
+    //Aqui podriamos almacenar los mensajes en la db 
     io.emit('mensaje_chat', data)
   });
 
